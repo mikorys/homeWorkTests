@@ -2,7 +2,7 @@
 
 import java.util.concurrent.TimeUnit;
 
-
+import org.junit.After;
 import org.junit.Before;
 
 import org.junit.Test;
@@ -55,6 +55,12 @@ public class SampleTest extends TestCase {
 		 
 
 }
+	@After
+	public void tearDown() throws Exception {
+		Thread.sleep(1000);
+		driver.quit();
+	}
+	
 	
 
 

@@ -143,7 +143,7 @@ public class TestCase2 {
 	
 	@After
 	public void tearDown() throws InterruptedException {
-		
+		driver.quit();
 		Thread.sleep(2000);
 		
 		

@@ -1,17 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-17T09:13:54Z" name="Surefire suite" finished-at="2019-05-17T09:14:07Z" duration-ms="12610">
+  <suite started-at="2019-05-20T13:17:00Z" name="Surefire suite" finished-at="2019-05-20T13:23:59Z" duration-ms="418769">
     <groups>
     </groups>
-    <test started-at="2019-05-17T09:13:54Z" name="Surefire test" finished-at="2019-05-17T09:14:07Z" duration-ms="12610">
-      <class name="sampleTest">
-        <test-method signature="test()" started-at="2019-05-17T09:13:54Z" name="test" finished-at="2019-05-17T09:14:07Z" duration-ms="12559" status="PASS">
+    <test started-at="2019-05-20T13:17:00Z" name="Surefire test" finished-at="2019-05-20T13:23:59Z" duration-ms="418769">
+      <class name="dataTablesTest.RetriveDataFromTableTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:18:14Z" name="test" finished-at="2019-05-20T13:18:32Z" duration-ms="18304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- sampleTest -->
+      </class> <!-- dataTablesTest.RetriveDataFromTableTest -->
+      <class name="SampleTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:20:58Z" name="test" finished-at="2019-05-20T13:21:24Z" duration-ms="26082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- SampleTest -->
+      <class name="loginPageTest.LoginPageTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:19:45Z" name="test" finished-at="2019-05-20T13:20:04Z" duration-ms="19349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- loginPageTest.LoginPageTest -->
+      <class name="statusCodesTest.StatusCodePickerTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:21:24Z" name="test" finished-at="2019-05-20T13:22:01Z" duration-ms="36758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- statusCodesTest.StatusCodePickerTest -->
+      <class name="basicAuthTest.CheckTextAfterLoginTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:17:44Z" name="test" finished-at="2019-05-20T13:17:58Z" duration-ms="14382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- basicAuthTest.CheckTextAfterLoginTest -->
+      <class name="dynamicLoading.DynamicLoadingTest">
+        <test-method signature="test()" started-at="2019-05-20T13:19:23Z" name="test" finished-at="2019-05-20T13:19:45Z" duration-ms="21788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- dynamicLoading.DynamicLoadingTest -->
+      <class name="dynamicControlsTest.DynamiControlsTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:18:48Z" name="test" finished-at="2019-05-20T13:19:23Z" duration-ms="35058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- dynamicControlsTest.DynamiControlsTest -->
+      <class name="dropDownListTest.DropDownListSelectionTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:18:32Z" name="test" finished-at="2019-05-20T13:18:48Z" duration-ms="16486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- dropDownListTest.DropDownListSelectionTest -->
+      <class name="addRemoveElementsTest.AddTwoElementsThenRemoveTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:17:00Z" name="test" finished-at="2019-05-20T13:17:22Z" duration-ms="21985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- addRemoveElementsTest.AddTwoElementsThenRemoveTest -->
+      <class name="checkBoxesTest.CheckBoxesSelectionTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:17:58Z" name="test" finished-at="2019-05-20T13:18:14Z" duration-ms="15508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- checkBoxesTest.CheckBoxesSelectionTest -->
+      <class name="AlertFunctionTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:17:22Z" name="test" finished-at="2019-05-20T13:17:44Z" duration-ms="21292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- AlertFunctionTest -->
+      <class name="notificationMessage.NotificationMessageTest">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:20:05Z" name="test" finished-at="2019-05-20T13:20:58Z" duration-ms="53215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- notificationMessage.NotificationMessageTest -->
+      <class name="testCasesZadania.TestCase2">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:23:04Z" name="test" finished-at="2019-05-20T13:23:59Z" duration-ms="55307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCasesZadania.TestCase2 -->
+      <class name="testCasesZadania.testCase1Test">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-20T13:22:01Z" name="test" finished-at="2019-05-20T13:23:04Z" duration-ms="63042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCasesZadania.testCase1Test -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
