@@ -28,7 +28,7 @@ public class DynamicLoadingTest {
 		
 	}
 
-	//TC 1.Click Example; 2.Click start 3.Wait until text to be displayed 4.Assert of Hello World/
+	//TC 1.Click Example; 2.Click start 3.Wait until text to be displayed 4.Assert of Hello World
 
 	@Test
 	public void test() {
