@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="420.278" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="379.101" tests="15" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\A648503\AppData\Local\Temp\surefire15599480103193658530\surefirebooter3245887592682219918.jar C:\Users\A648503\AppData\Local\Temp\surefire15599480103193658530 2019-05-20T15-16-57_287-jvmRun1 surefire3143198367605679207tmp surefire_04543577254960006941tmp"/>
+    <property name="sun.java.command" value="C:\Users\A648503\AppData\Local\Temp\surefire962558769273929055\surefirebooter4170837532036672791.jar C:\Users\A648503\AppData\Local\Temp\surefire962558769273929055 2019-05-21T09-29-52_532-jvmRun1 surefire17176666375048090293tmp surefire_07660867954979710761tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\A648503\git\homeWorkTests\MojeTesty\target\test-classes;C:\Users\A648503\git\homeWorkTests\MojeTesty\target\classes;C:\Users\A648503\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\A648503\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\A648503\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\A648503\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\A648503\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\A648503\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\A648503\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\A648503\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\A648503\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\A648503\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\A648503\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\A648503\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\A648503\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\A648503\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\A648503\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\A648503\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\A648503\AppData\Local\Temp\surefire15599480103193658530\surefirebooter3245887592682219918.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\A648503\AppData\Local\Temp\surefire962558769273929055\surefirebooter4170837532036672791.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9-LTS"/>
@@ -62,18 +62,59 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="test on test(addRemoveElementsTest.AddTwoElementsThenRemoveTest)" classname="addRemoveElementsTest.AddTwoElementsThenRemoveTest" time="21.967"/>
-  <testcase name="test on test(AlertFunctionTest)" classname="AlertFunctionTest" time="21.291"/>
-  <testcase name="test on test(basicAuthTest.CheckTextAfterLoginTest)" classname="basicAuthTest.CheckTextAfterLoginTest" time="14.382"/>
-  <testcase name="test on test(checkBoxesTest.CheckBoxesSelectionTest)" classname="checkBoxesTest.CheckBoxesSelectionTest" time="15.501"/>
-  <testcase name="test on test(dataTablesTest.RetriveDataFromTableTest)" classname="dataTablesTest.RetriveDataFromTableTest" time="18.303"/>
-  <testcase name="test on test(dropDownListTest.DropDownListSelectionTest)" classname="dropDownListTest.DropDownListSelectionTest" time="16.485"/>
-  <testcase name="test on test(dynamicControlsTest.DynamiControlsTest)" classname="dynamicControlsTest.DynamiControlsTest" time="35.058"/>
-  <testcase name="test on test(dynamicLoading.DynamicLoadingTest)" classname="dynamicLoading.DynamicLoadingTest" time="21.785"/>
-  <testcase name="test on test(loginPageTest.LoginPageTest)" classname="loginPageTest.LoginPageTest" time="19.351"/>
-  <testcase name="test on test(notificationMessage.NotificationMessageTest)" classname="notificationMessage.NotificationMessageTest" time="53.207"/>
-  <testcase name="test on test(SampleTest)" classname="SampleTest" time="26.076"/>
-  <testcase name="test on test(statusCodesTest.StatusCodePickerTest)" classname="statusCodesTest.StatusCodePickerTest" time="36.752"/>
-  <testcase name="test on test(testCasesZadania.testCase1Test)" classname="testCasesZadania.testCase1Test" time="63.032"/>
-  <testcase name="test on test(testCasesZadania.TestCase2)" classname="testCasesZadania.TestCase2" time="55.306"/>
+  <testcase name="test on test(addRemoveElementsTest.AddTwoElementsThenRemoveTest)" classname="addRemoveElementsTest.AddTwoElementsThenRemoveTest" time="16.829"/>
+  <testcase name="test on test(AlertFunctionTest)" classname="AlertFunctionTest" time="16.309"/>
+  <testcase name="test on test(basicAuthTest.CheckTextAfterLoginTest)" classname="basicAuthTest.CheckTextAfterLoginTest" time="9.852"/>
+  <testcase name="test on test(checkBoxesTest.CheckBoxesSelectionTest)" classname="checkBoxesTest.CheckBoxesSelectionTest" time="14.093"/>
+  <testcase name="test on test(dataTablesTest.RetriveDataFromTableTest)" classname="dataTablesTest.RetriveDataFromTableTest" time="12.936"/>
+  <testcase name="test on test(dropDownListTest.DropDownListSelectionTest)" classname="dropDownListTest.DropDownListSelectionTest" time="12.558"/>
+  <testcase name="test on test(dynamicControlsTest.DynamiControlsTest)" classname="dynamicControlsTest.DynamiControlsTest" time="28.103"/>
+  <testcase name="test on test(dynamicLoading.DynamicLoadingTest)" classname="dynamicLoading.DynamicLoadingTest" time="17.083"/>
+  <testcase name="test on test(loginPageTest.LoginPageTest)" classname="loginPageTest.LoginPageTest" time="14.14"/>
+  <testcase name="test on test(notificationMessage.NotificationMessageTest)" classname="notificationMessage.NotificationMessageTest" time="15.556"/>
+  <testcase name="test on test(SampleTest)" classname="SampleTest" time="21.692">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;action-menu-toggle-6&apos;]&quot;}&#10;  (Session info: chrome=70.0.3538.102)&#10;  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MC0YW51C&apos;, ip: &apos;10.84.139.47&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;11.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\A648503\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63269}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.102, webStorageEnabled: true}&#10;Session ID: 233a1ab11fb5fd32268eb75d01eeb29a&#10;*** Element info: {Using=xpath, value=//a[@id=&apos;action-menu-toggle-6&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='action-menu-toggle-6']"}
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MC0YW51C', ip: '10.84.139.47', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\A648503\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63269}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 233a1ab11fb5fd32268eb75d01eeb29a
+*** Element info: {Using=xpath, value=//a[@id='action-menu-toggle-6']}
+	at SampleTest.test(SampleTest.java:44)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 17083
+Only local connections are allowed.
+maj 21, 2019 9:32:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="test on test(statusCodesTest.StatusCodePickerTest)" classname="statusCodesTest.StatusCodePickerTest" time="23.018"/>
+  <testcase name="test on test(testCasesZadania.testCase1Test)" classname="testCasesZadania.testCase1Test" time="54.253">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&apos;action-menu-toggle-6&apos;]&quot;}&#10;  (Session info: chrome=70.0.3538.102)&#10;  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MC0YW51C&apos;, ip: &apos;10.84.139.47&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;11.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\A648503\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.102, webStorageEnabled: true}&#10;Session ID: 841230cd96685968e5779e9b36c65c98&#10;*** Element info: {Using=xpath, value=//a[@id=&apos;action-menu-toggle-6&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='action-menu-toggle-6']"}
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MC0YW51C', ip: '10.84.139.47', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\A648503\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 841230cd96685968e5779e9b36c65c98
+*** Element info: {Using=xpath, value=//a[@id='action-menu-toggle-6']}
+	at testCasesZadania.testCase1Test.test(testCase1Test.java:131)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 2554
+Only local connections are allowed.
+maj 21, 2019 9:33:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="test on test(testCasesZadania.TestCase2)" classname="testCasesZadania.TestCase2" time="47.191"/>
+  <testcase name="test on test(testCasesZadania.TestCase3)" classname="testCasesZadania.TestCase3" time="73.944"/>
 </testsuite>
