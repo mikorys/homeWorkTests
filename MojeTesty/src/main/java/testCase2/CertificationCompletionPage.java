@@ -39,7 +39,7 @@ public class CertificationCompletionPage {
 	WebElement clearBtn;
 	@FindBy(xpath="//select[@class='custom-select singleselect']")
 	WebElement viewAndSearchSelect;
-	@FindBy(xpath="//a[@id='action-menu-toggle-0']")
+	@FindBy(xpath="//a[@class=\"toggle-display textmenu\"]")
 	WebElement dropDownMenuBtn;
 	@FindBy(xpath="//li[31]//a[1]")
 	WebElement logOutBtn;

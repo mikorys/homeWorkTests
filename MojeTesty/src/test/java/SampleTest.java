@@ -6,7 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 
 import org.junit.Test;
-import org.openqa.selenium.By;
+//import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,8 +41,8 @@ public class SampleTest extends TestCase {
 		 
 		 base.loginAdmin();
 		 Thread.sleep(1000);
-		 driver.findElement(By.xpath("//a[@id='action-menu-toggle-6']")).click();
-		 driver.findElement(By.xpath("//li[31]//a[1]")).click();
+		// driver.findElement(By.xpath("//a[@id='action-menu-toggle-6']")).click();
+		// driver.findElement(By.xpath("//li[31]//a[1]")).click();
 		 /*
 		 * Select sel = new Select(dropDown); sel.selectByIndex(30);
 		 */

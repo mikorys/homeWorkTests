@@ -20,7 +20,7 @@ public class OrganisationFrameworksPage extends AdminDashboardPage {
 	
 	@FindBy(xpath="//div[@class='alert-message']")
 	WebElement alertMessage;
-	@FindBy(xpath="//a[@id='action-menu-toggle-6']")
+	@FindBy(xpath="//a[@class=\"toggle-display textmenu\"]")
 	WebElement dropDownMenuBtn;
 	@FindBy(xpath="//li[31]//a[1]")
 	WebElement logOutBtn;
