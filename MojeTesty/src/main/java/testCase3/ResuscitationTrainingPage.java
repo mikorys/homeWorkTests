@@ -54,17 +54,15 @@ public class ResuscitationTrainingPage {
 		List<String> eventDetailsData = new ArrayList<String>();
 		
 			for (WebElement tableRow : upcomingEventsTableRows) {
-				String date = tableRow.findElement(By.xpath("//td[@class=\"cell c0\"]")).getText();
+				String date = tableRow.findElement(By.cssSelector(".cell.c0")).getText();
 				
-					if (date.contains("December")){
-							eventDetailsData.add(date);
-							List<WebElement>tableColumns=tableRow.findElements(By.tagName("td"));
-							//get data from 2nd and 3rd column
-								for(int i=1; i<3;i++)
-								{
-									eventDetailsData.add(tableColumns.get(i).getText());
-								}				
-						}
+				if (date.contains("December")) {
+					eventDetailsData.add(date);
+					eventDetailsData.add(tableRow.findElement(By.xpath("//td[@class=\"cell c1\"]")).getText());
+					eventDetailsData.add(tableRow.findElement(By.xpath("//td[@class=\"cell c2\"]")).getText());
+								  
+				  }
+				  
 			 }		
 			
 		return eventDetailsData;

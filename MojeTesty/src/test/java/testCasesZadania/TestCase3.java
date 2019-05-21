@@ -37,6 +37,10 @@ public class TestCase3 {
 	String minute;
 	String timeZone;
 	
+	String date;
+	String timeAndTimeZone;
+	String room;
+	
 	
 	@Before
 	public void setUp() {
@@ -77,7 +81,11 @@ public class TestCase3 {
 		Assert.assertTrue(rescTrainPageObj.getAlertsText().contains("The signup user has conflicting signups"));//Assert Alert text msg
 		Thread.sleep(1000);
 		rescTrainPageObj.clickRescutitatioTrainingLink();//click rescutitatioTrainingLink
-		List<String> eventDetails=rescTrainPageObj.fetchEventDetails();//save eventData To List		
+		List<String> eventDetails=rescTrainPageObj.fetchEventDetails();//save eventData To List	
+		//add data to strings
+		date=eventDetails.get(0);
+		timeAndTimeZone=eventDetails.get(1);
+		room=eventDetails.get(2);
 		Thread.sleep(1000);
 		rescTrainPageObj.clickAddANewEventBtn();//add new event
 		Thread.sleep(1000);
@@ -113,6 +121,13 @@ public class TestCase3 {
 		Thread.sleep(10000);//wait 10 seconds
 		rescTrainPageObj.clickLogOutBtn();//logout
 		
+		
+		System.out.println("### Resuscitation training ###");
+		System.out.println("Event date/time: "+date);
+		System.out.println("Duration: "+timeAndTimeZone);
+		System.out.println("Room: "+room);
+		System.out.println("\n### December Event ###");
+		System.out.println("The event will be on "+date+" at "+timeAndTimeZone+" in "+room);
 		
 		
 		
