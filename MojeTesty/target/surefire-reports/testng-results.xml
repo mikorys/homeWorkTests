@@ -1,277 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-21T07:29:55Z" name="Surefire suite" finished-at="2019-05-21T07:36:13Z" duration-ms="377736">
+  <suite started-at="2019-05-21T08:55:37Z" name="Surefire suite" finished-at="2019-05-21T09:01:39Z" duration-ms="361588">
     <groups>
     </groups>
-    <test started-at="2019-05-21T07:29:55Z" name="Surefire test" finished-at="2019-05-21T07:36:13Z" duration-ms="377736">
+    <test started-at="2019-05-21T08:55:37Z" name="Surefire test" finished-at="2019-05-21T09:01:39Z" duration-ms="361588">
       <class name="dataTablesTest.RetriveDataFromTableTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:30:52Z" name="test" finished-at="2019-05-21T07:31:05Z" duration-ms="12936" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:56:30Z" name="test" finished-at="2019-05-21T08:56:43Z" duration-ms="12876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- dataTablesTest.RetriveDataFromTableTest -->
       <class name="SampleTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:32:33Z" name="test" finished-at="2019-05-21T07:32:54Z" duration-ms="21676" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='action-menu-toggle-6']"}
-  (Session info: chrome=70.0.3538.102)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MC0YW51C', ip: '10.84.139.47', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\A648503\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63269}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 233a1ab11fb5fd32268eb75d01eeb29a
-*** Element info: {Using=xpath, value=//a[@id='action-menu-toggle-6']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='action-menu-toggle-6']"}
-  (Session info: chrome=70.0.3538.102)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MC0YW51C', ip: '10.84.139.47', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\A648503\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63269}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 233a1ab11fb5fd32268eb75d01eeb29a
-*** Element info: {Using=xpath, value=//a[@id='action-menu-toggle-6']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at SampleTest.test(SampleTest.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at junit.framework.TestCase.runTest(TestCase.java:176)
-at junit.framework.TestCase.runBare(TestCase.java:141)
-at junit.framework.TestResult$1.protect(TestResult.java:122)
-at junit.framework.TestResult.runProtected(TestResult.java:142)
-at junit.framework.TestResult.run(TestResult.java:125)
-at junit.framework.TestCase.run(TestCase.java:129)
-at junit.framework.TestSuite.runTest(TestSuite.java:252)
-at junit.framework.TestSuite.run(TestSuite.java:247)
-at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
-at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
-at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:82)
-at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:70)
-at org.testng.TestRunner$1.run(TestRunner.java:570)
-at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:717)
-at org.testng.TestRunner.privateRunJUnit(TestRunner.java:601)
-at org.testng.TestRunner.run(TestRunner.java:502)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:198)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:58:13Z" name="test" finished-at="2019-05-21T08:58:29Z" duration-ms="16500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- SampleTest -->
       <class name="loginPageTest.LoginPageTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:32:03Z" name="test" finished-at="2019-05-21T07:32:17Z" duration-ms="14139" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:57:42Z" name="test" finished-at="2019-05-21T08:57:57Z" duration-ms="14495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- loginPageTest.LoginPageTest -->
       <class name="statusCodesTest.StatusCodePickerTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:32:54Z" name="test" finished-at="2019-05-21T07:33:17Z" duration-ms="23024" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:58:29Z" name="test" finished-at="2019-05-21T08:58:54Z" duration-ms="24070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- statusCodesTest.StatusCodePickerTest -->
       <class name="basicAuthTest.CheckTextAfterLoginTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:30:28Z" name="test" finished-at="2019-05-21T07:30:38Z" duration-ms="9853" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:56:08Z" name="test" finished-at="2019-05-21T08:56:18Z" duration-ms="10210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- basicAuthTest.CheckTextAfterLoginTest -->
       <class name="dynamicLoading.DynamicLoadingTest">
-        <test-method signature="test()" started-at="2019-05-21T07:31:46Z" name="test" finished-at="2019-05-21T07:32:03Z" duration-ms="17083" status="PASS">
+        <test-method signature="test()" started-at="2019-05-21T08:57:25Z" name="test" finished-at="2019-05-21T08:57:42Z" duration-ms="17210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- dynamicLoading.DynamicLoadingTest -->
       <class name="dynamicControlsTest.DynamiControlsTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:31:18Z" name="test" finished-at="2019-05-21T07:31:46Z" duration-ms="28108" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:56:58Z" name="test" finished-at="2019-05-21T08:57:25Z" duration-ms="27050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- dynamicControlsTest.DynamiControlsTest -->
       <class name="dropDownListTest.DropDownListSelectionTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:31:05Z" name="test" finished-at="2019-05-21T07:31:18Z" duration-ms="12550" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:56:43Z" name="test" finished-at="2019-05-21T08:56:58Z" duration-ms="14544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- dropDownListTest.DropDownListSelectionTest -->
       <class name="testCasesZadania.TestCase3">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:34:59Z" name="test" finished-at="2019-05-21T07:36:13Z" duration-ms="73945" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T09:00:32Z" name="test" finished-at="2019-05-21T09:01:39Z" duration-ms="67166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- testCasesZadania.TestCase3 -->
       <class name="addRemoveElementsTest.AddTwoElementsThenRemoveTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:29:55Z" name="test" finished-at="2019-05-21T07:30:12Z" duration-ms="16842" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:55:37Z" name="test" finished-at="2019-05-21T08:55:53Z" duration-ms="15767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- addRemoveElementsTest.AddTwoElementsThenRemoveTest -->
       <class name="checkBoxesTest.CheckBoxesSelectionTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:30:38Z" name="test" finished-at="2019-05-21T07:30:52Z" duration-ms="14093" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:56:18Z" name="test" finished-at="2019-05-21T08:56:30Z" duration-ms="12608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- checkBoxesTest.CheckBoxesSelectionTest -->
       <class name="AlertFunctionTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:30:12Z" name="test" finished-at="2019-05-21T07:30:28Z" duration-ms="16311" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:55:53Z" name="test" finished-at="2019-05-21T08:56:08Z" duration-ms="14378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- AlertFunctionTest -->
       <class name="notificationMessage.NotificationMessageTest">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:32:17Z" name="test" finished-at="2019-05-21T07:32:33Z" duration-ms="15557" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:57:57Z" name="test" finished-at="2019-05-21T08:58:13Z" duration-ms="16355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- notificationMessage.NotificationMessageTest -->
       <class name="testCasesZadania.TestCase2">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:34:12Z" name="test" finished-at="2019-05-21T07:34:59Z" duration-ms="47191" status="PASS">
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:59:45Z" name="test" finished-at="2019-05-21T09:00:32Z" duration-ms="46777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- testCasesZadania.TestCase2 -->
       <class name="testCasesZadania.testCase1Test">
-        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T07:33:17Z" name="test" finished-at="2019-05-21T07:34:12Z" duration-ms="54249" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='action-menu-toggle-6']"}
-  (Session info: chrome=70.0.3538.102)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MC0YW51C', ip: '10.84.139.47', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\A648503\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 841230cd96685968e5779e9b36c65c98
-*** Element info: {Using=xpath, value=//a[@id='action-menu-toggle-6']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='action-menu-toggle-6']"}
-  (Session info: chrome=70.0.3538.102)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MC0YW51C', ip: '10.84.139.47', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\A648503\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63316}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 841230cd96685968e5779e9b36c65c98
-*** Element info: {Using=xpath, value=//a[@id='action-menu-toggle-6']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
-at testCase1.OrganisationFrameworksPage.logOut(OrganisationFrameworksPage.java:47)
-at testCasesZadania.testCase1Test.test(testCase1Test.java:131)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
-at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:82)
-at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:70)
-at org.testng.TestRunner$1.run(TestRunner.java:570)
-at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:717)
-at org.testng.TestRunner.privateRunJUnit(TestRunner.java:601)
-at org.testng.TestRunner.run(TestRunner.java:502)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:198)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="test() throws java.lang.InterruptedException" started-at="2019-05-21T08:58:54Z" name="test" finished-at="2019-05-21T08:59:45Z" duration-ms="51443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
