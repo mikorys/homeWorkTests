@@ -6,10 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class OrganisationFrameworks extends AdminDashboard {
+public class OrganisationFrameworksPage extends AdminDashboardPage {
 	WebDriver driver;
 	
-	public OrganisationFrameworks(WebDriver driver) {
+	public OrganisationFrameworksPage(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

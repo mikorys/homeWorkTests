@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import testCase1.BaseLoginPage;
 
-public class ManageDashboard extends BaseLoginPage{
+public class ManageDashboardPage extends BaseLoginPage{
 	WebDriver driver;
 	
-	public ManageDashboard(WebDriver driver) {
+	public ManageDashboardPage(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

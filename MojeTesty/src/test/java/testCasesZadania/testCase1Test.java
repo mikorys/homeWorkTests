@@ -12,22 +12,22 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import testCase1.AddNewOrganisation;
-import testCase1.AddNewOrganisationFramework;
-import testCase1.AdminDashboard;
+import testCase1.AddNewOrganisationPage;
+import testCase1.AddNewOrganisationFrameworkPage;
+import testCase1.AdminDashboardPage;
 
-import testCase1.NewlyCreatedOrganisation;
-import testCase1.OrganisationFrameworks;
+import testCase1.NewlyCreatedOrganisationPage;
+import testCase1.OrganisationFrameworksPage;
 
 public class testCase1Test {
 
 	WebDriver driver;
 	Random rand;
-	AdminDashboard dashboard;
-	OrganisationFrameworks orgFramw;
-	AddNewOrganisationFramework addOrgFram;
-	AddNewOrganisation addNewOrg;
-	NewlyCreatedOrganisation newCreatedOrg;
+	AdminDashboardPage dashboard;
+	OrganisationFrameworksPage orgFramw;
+	AddNewOrganisationFrameworkPage addOrgFram;
+	AddNewOrganisationPage addNewOrg;
+	NewlyCreatedOrganisationPage newCreatedOrg;
 	
 	String baseURL;
 	//organisationFramework
@@ -44,11 +44,11 @@ public class testCase1Test {
 	public void setUp(){
 		driver=new ChromeDriver();
 		rand= new Random();
-		dashboard= new AdminDashboard(driver);
-		orgFramw= new OrganisationFrameworks(driver);
-		addOrgFram= new AddNewOrganisationFramework(driver);
-		addNewOrg= new AddNewOrganisation(driver);
-		newCreatedOrg= new NewlyCreatedOrganisation(driver);
+		dashboard= new AdminDashboardPage(driver);
+		orgFramw= new OrganisationFrameworksPage(driver);
+		addOrgFram= new AddNewOrganisationFrameworkPage(driver);
+		addNewOrg= new AddNewOrganisationPage(driver);
+		newCreatedOrg= new NewlyCreatedOrganisationPage(driver);
 		baseURL="https://demo.totaralearning.com/";
 		
 		//new organisation framework data

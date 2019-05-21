@@ -5,10 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class NewlyCreatedOrganisationFramework extends OrganisationFrameworks{
+public class NewlyCreatedOrganisationFrameworkPage extends OrganisationFrameworksPage{
 	WebDriver driver;
 	
-	public NewlyCreatedOrganisationFramework(WebDriver driver) {
+	public NewlyCreatedOrganisationFrameworkPage(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

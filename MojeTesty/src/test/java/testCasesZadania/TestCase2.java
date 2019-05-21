@@ -16,16 +16,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-import testCase2.CertificationCompletion;
-import testCase2.ManageDashboard;
-import testCase2.SaveThisSearch;
+import testCase2.CertificationCompletionPage;
+import testCase2.ManageDashboardPage;
+import testCase2.SaveThisSearchPage;
 
 public class TestCase2 {
 	WebDriver driver;
 	Random rand;
-	ManageDashboard manageDash;
-	CertificationCompletion certCompletion;
-	SaveThisSearch thisSearch;
+	ManageDashboardPage manageDash;
+	CertificationCompletionPage certCompletion;
+	SaveThisSearchPage thisSearch;
 	String baseUrl;
 	String saveNameSearch;
 	List<WebElement> objectiveUserNameList;
@@ -36,9 +36,9 @@ public class TestCase2 {
 		objectiveUserNameList=null;
 		strngUserNameList=new ArrayList<String>();
 		driver= new ChromeDriver();
-		manageDash= new ManageDashboard(driver);
-		certCompletion= new CertificationCompletion(driver);
-		thisSearch= new SaveThisSearch(driver);
+		manageDash= new ManageDashboardPage(driver);
+		certCompletion= new CertificationCompletionPage(driver);
+		thisSearch= new SaveThisSearchPage(driver);
 		rand= new Random();
 		baseUrl="https://demo.totaralearning.com";
 		saveNameSearch="Search Jason"+(Integer.toString(rand.nextInt(1000)+1));

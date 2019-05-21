@@ -5,10 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AdminDashboard extends BaseLoginPage {
+public class AdminDashboardPage extends BaseLoginPage {
 	WebDriver driver;
 
-	public AdminDashboard(WebDriver driver) {
+	public AdminDashboardPage(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

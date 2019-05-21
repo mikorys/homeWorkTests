@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AddNewOrganisation extends NewlyCreatedOrganisationFramework {
+public class AddNewOrganisationPage extends NewlyCreatedOrganisationFrameworkPage {
 	WebDriver driver;
-	public AddNewOrganisation(WebDriver driver) {
+	public AddNewOrganisationPage(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

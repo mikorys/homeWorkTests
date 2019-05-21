@@ -10,11 +10,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class CertificationCompletion {
+public class CertificationCompletionPage {
 	WebDriver driver;
 	List<WebElement> userData=new ArrayList<WebElement>();
 
-	public CertificationCompletion(WebDriver driver) {
+	public CertificationCompletionPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
