@@ -77,57 +77,26 @@ public class testCase1Test {
 	@Test
 	public void test() throws InterruptedException {
 		driver.get(baseURL);
-		Thread.sleep(1000);
-		dashboard.loginAdmin();//login as admirn
-		Thread.sleep(1000);
+		dashboard.loginAdmin();//login as admin
 		dashboard.selectOrganisationsBookmark();
-		Thread.sleep(1000);
 		orgFramw.clickAddNewOrganisationFramework();//click add organisation framework
-		//fillName ID and Description
-		Thread.sleep(1000);
-		addOrgFram.insertTextToName(organisationFrameworkName);
-		Thread.sleep(1000);
+		addOrgFram.insertTextToName(organisationFrameworkName);//fillName ID and Description
 		addOrgFram.insertTextToIDNumber(organisationFrameworkId);
-		Thread.sleep(1000);
 		addOrgFram.insertTextToDescription(frameworkDescription);
-		
-		//click save Btn
-		Thread.sleep(1000);
-		addOrgFram.clickSaveBtn();
-		//checkTextAssertion of added text
-		Assert.assertTrue(orgFramw.returnAlertText().contains("The organisation framework \""+organisationFrameworkName+"\" has been added"));
-		//pick newly created organisation frameowork name
-		addOrgFram.pickNewlyGeneratedOrganisation(organisationFrameworkName);
-		
-		//clickAddNewOrganisation
-		Thread.sleep(1000);
-		addNewOrg.clickAddNewOrganisationBtn();
-		
-		//Fill NAME ID and Description
-		addNewOrg.insertTextToName(organisationName);
+		addOrgFram.clickSaveBtn();//click save Btn
+		Assert.assertTrue(orgFramw.returnAlertText().contains("The organisation framework \""+organisationFrameworkName+"\" has been added"));//checkTextAssertion of added text	
+		addOrgFram.pickNewlyGeneratedOrganisation(organisationFrameworkName);//pick newly created organisation frameowork name
+		addNewOrg.clickAddNewOrganisationBtn();//clickAddNewOrganisation		
+		addNewOrg.insertTextToName(organisationName);//Fill NAME ID and Description
 		addNewOrg.insertTextToIDNumber(organisationId);
 		addNewOrg.insertTextToDescription(organisationDescription);
 		addNewOrg.clickSaveBtn();
-		//Assert newlycreatedOrganisation
-		Assert.assertTrue(newCreatedOrg.returnAlertText().contains("The organisation \""+organisationName+"\" has been added"));
-		
-		//clickAddGoalBtn
-		newCreatedOrg.clickAddGoal();
-		//click option
-		Thread.sleep(1000);
-		newCreatedOrg.clickCreateTrainingManual();
-		//click save
-		Thread.sleep(1000);
-		
-		
-		
+		Assert.assertTrue(newCreatedOrg.returnAlertText().contains("The organisation \""+organisationName+"\" has been added"));//Assert newlycreatedOrganisation
+		newCreatedOrg.clickAddGoal();//clickAddGoalBtn
+		newCreatedOrg.clickCreateTrainingManual();//click option		
 		newCreatedOrg.clickSaveBtn();//click save BTN
-		
-		
-		//Rest works....go back to organisationFramework
 		Thread.sleep(1000);
-		newCreatedOrg.returnToOrgFramework();///it works when there is no popup window
-		//logout
+		newCreatedOrg.returnToOrgFramework();
 		orgFramw.logOut();
 		
 	}

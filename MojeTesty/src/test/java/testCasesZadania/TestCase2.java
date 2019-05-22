@@ -54,85 +54,28 @@ public class TestCase2 {
 	public void test() throws InterruptedException {
 		driver.get(baseUrl);
 		
-		manageDash.loginManager();//login as manager
-		
-		Thread.sleep(1000);
-		manageDash.clickctificationCompletion();//pick certification completion
-		
-		Thread.sleep(1000);
-		certCompletion.fullNameDropdownStartsWithOption(3);//select starts with option
-		
-		Thread.sleep(1000);
-		certCompletion.insertTextToFullNameTextField("Jason");//insert Jason to text field
-		
-		Thread.sleep(1000);
-		certCompletion.clickSearchBtn();//click search Btn
-		
-		//AssertDueDate
-		Assert.assertTrue(certCompletion.retriveColumnDataFromTable(3).contains("27 Jul 2018 at 09:55"));
-		//click UserPositions Name
-		Thread.sleep(1000);
-		certCompletion.clickUserPositionNameHeader();
-		//AssertUserOrganisationName 
-		Assert.assertTrue(certCompletion.retriveColumnDataFromTable(7).contains("Internal Helpdesk"));
-		
-		//click Save this serarch btn
-		Thread.sleep(1000);
-		certCompletion.clickSaveThisSearchBtn();
-		
-		//provide searched Name
-		Thread.sleep(1000);
-		thisSearch.insertSearchedNameToNameField(saveNameSearch);
-		
-		//save changes
-		Thread.sleep(1000);
-		thisSearch.clickSaveChangesBtn();
-		
-		//Click Clear btn
-		Thread.sleep(1000);
-		certCompletion.clickClearBtn();
-		
-		//Set Status to is equal
-		Thread.sleep(1000);
-		certCompletion.selectFirstStatusDropDownOption(1);
-		
-		//SetSecond Status to Expired
-		Thread.sleep(1000);
-		certCompletion.selectSecondStatusDropDownOption(4);
-		
-		//Click Search
-		Thread.sleep(1000);
-		certCompletion.clickSearchBtn();
-		
-		//retrive user Name into list
-		objectiveUserNameList=certCompletion.getFirstColumnValues(1);
-		// add text elements from web element list to string list
-		certCompletion.copyTextToAnotherList(objectiveUserNameList, strngUserNameList);
-				
-		
-		//from Select and View saved result
-		Thread.sleep(1000);
-		certCompletion.selectViewAndSearch(saveNameSearch);
-		
-		//assert 1st coulumn name is JasonConarch
-		Assert.assertTrue(certCompletion.retriveColumnDataFromTable(1).contains("Jason Cochran"));
-
-		//logout from the page
-		Thread.sleep(1000);
-		certCompletion.logOut();
-		
+		manageDash.loginManager();//login as manager		
+		manageDash.clickctificationCompletion();//pick certification completion		
+		certCompletion.fullNameDropdownStartsWithOption(3);//select starts with option		
+		certCompletion.insertTextToFullNameTextField("Jason");//insert Jason to text field		
+		certCompletion.clickSearchBtn();//click search Btn		
+		Assert.assertTrue(certCompletion.retriveColumnDataFromTable(3).contains("27 Jul 2018 at 09:55"));//AssertDueDate
+		certCompletion.clickUserPositionNameHeader();//click UserPositions Name
+		Assert.assertTrue(certCompletion.retriveColumnDataFromTable(7).contains("Internal Helpdesk"));//AssertUserOrganisationName 			
+		certCompletion.clickSaveThisSearchBtn();//click Save this serarch btn			
+		thisSearch.insertSearchedNameToNameField(saveNameSearch);//provide searched Name	
+		thisSearch.clickSaveChangesBtn();//save changes			
+		certCompletion.clickClearBtn();//Click Clear btn		
+		certCompletion.selectFirstStatusDropDownOption(1);//Set Status to is equal		
+		certCompletion.selectSecondStatusDropDownOption(4);//SetSecond Status to Expired		
+		certCompletion.clickSearchBtn();//Click Search		
+		objectiveUserNameList=certCompletion.getFirstColumnValues(1);//retrive user Name into list		
+		certCompletion.copyTextToAnotherList(objectiveUserNameList, strngUserNameList);// add text elements from web element list to string list		
+		certCompletion.selectViewAndSearch(saveNameSearch);//from Select and View saved result		
+		Assert.assertTrue(certCompletion.retriveColumnDataFromTable(1).contains("Jason Cochran"));//assert 1st coulumn name is JasonConarch
+		certCompletion.logOut();//logout from the page		
 		System.out.println("List Content: ");
 		certCompletion.printList(strngUserNameList);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 

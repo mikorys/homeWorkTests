@@ -76,47 +76,47 @@ public class TestCase3 {
 		durationFieldText=calPageObj.returnDurationText();
 		roomFieldFieldText=calPageObj.returnRoomText();
 		
-		Thread.sleep(1000);
+		
 		calPageObj.clickSingForSeminarEventBtn();//sign int for Seminar event
 		Assert.assertTrue(rescTrainPageObj.getAlertsText().contains("The signup user has conflicting signups"));//Assert Alert text msg
-		Thread.sleep(1000);
+		
 		rescTrainPageObj.clickRescutitatioTrainingLink();//click rescutitatioTrainingLink
 		List<String> eventDetails=rescTrainPageObj.fetchEventDetails();//save eventData To List	
 		//add data to strings
 		date=eventDetails.get(0);
 		timeAndTimeZone=eventDetails.get(1);
 		room=eventDetails.get(2);
-		Thread.sleep(1000);
+		
 		rescTrainPageObj.clickAddANewEventBtn();//add new event
-		Thread.sleep(1000);
+		
 		addRescTrainObj.clickRemoveSessionBtn();//remove session
-		Thread.sleep(2000);
+		
 		addRescTrainObj.clickSingUpOpenCheckBox();//click start checkbox
-		Thread.sleep(1000);
+		
 		addRescTrainObj.setStartDateAndTimeWithCurrentTime(timeZone);//pick start date and time base on current time
-		Thread.sleep(2000);
+		
 		addRescTrainObj.clickSignUpCloseCheckBox();//click finish checkbox
-		Thread.sleep(1000);
+		
 		addRescTrainObj.setFinishDateAndTime(day, month, year, hour, minute, timeZone);//pick finish date
-		Thread.sleep(1000);
+		
 		addRescTrainObj.insertTextToMaximumBookingsField("9");//set maximum bookings
-		Thread.sleep(1000);
+		
 		addRescTrainObj.clickEnableWaitListCheckBox();//select enable waitlist
-		Thread.sleep(1000);
+		
 		addRescTrainObj.selectAllowCancelationRadioBtn(1);//select at any timie which is 1st radio btn
-		Thread.sleep(1000);
+		
 		addRescTrainObj.insertTextToMinimumBookings("2");//set minimum bookings to 2
-		Thread.sleep(1000);
+		
 		addRescTrainObj.insertTextToNormalCostField("200z³");//set normal cost to 200z³
-		Thread.sleep(1000);
+		
 		addRescTrainObj.insertTextToDiscounCostField("150z³");//set discount cost
-		Thread.sleep(1000);
+		
 		addRescTrainObj.insertTextToDetailsField("This is a simple test to add new events.");//add description
-		Thread.sleep(1000);
+		
 		addRescTrainObj.selectEditTrainerSallyCheckbox();//select edit trainer checkbox
-		Thread.sleep(1000);
+		
 		addRescTrainObj.selectTrainerCarlCheckbox();//select trainer checkbox
-		Thread.sleep(1000);
+		
 		addRescTrainObj.clickSaveBtn();//click save
 		Thread.sleep(10000);//wait 10 seconds
 		rescTrainPageObj.clickLogOutBtn();//logout
