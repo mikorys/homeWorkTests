@@ -70,7 +70,7 @@ public class TestCase3 {
 		driver.get(baseUrl);
 		
 		base.loginCourseCreator();//login as course creator
-		trainDashObj.clickResuscitationTrainingLink();//hover mouse over 15th dday field and click resuscitation link from calendar
+		trainDashObj.clickResuscitationTrainingLink();//hover mouse over 12th dday field and click resuscitation link from calendar
 		
 		dateAndTimeFieldText=calPageObj.returnDateAndTimeText();//fetch data from following fields date/time, duration and room
 		durationFieldText=calPageObj.returnDurationText();
@@ -114,7 +114,7 @@ public class TestCase3 {
 		addRescTrainObj.insertTextToDetailsField("This is a simple test to add new events.");//add description
 		
 		addRescTrainObj.selectEditTrainerSallyCheckbox();//select edit trainer checkbox
-		
+		//
 		addRescTrainObj.selectTrainerCarlCheckbox();//select trainer checkbox
 		
 		addRescTrainObj.clickSaveBtn();//click save

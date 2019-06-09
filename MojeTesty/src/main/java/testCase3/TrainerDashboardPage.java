@@ -14,7 +14,7 @@ public class TrainerDashboardPage {
 	}
 	
 	  //@FindBy(xpath="//td[@id='yui_3_17_2_1_1558376482442_66']")
-	  @FindBy(linkText="15")
+	  @FindBy(linkText="12")
 	  WebElement dayNo15field;
 	 
 	

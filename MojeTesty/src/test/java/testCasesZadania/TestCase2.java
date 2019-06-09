@@ -45,7 +45,7 @@ public class TestCase2 {
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		
+		System.out.println();
 	}
 
 	

@@ -21,6 +21,7 @@ public class AddNewEventInResuscitationPage {
 	
 	@FindBy(xpath = "//a[contains(@class, 'dateremove')]")
 	WebElement removeSessionBtn;	
+	//WebElement removeSessionBtn=;
 	//sign up Opens elements
 	@FindBy(id="id_registrationtimestart_enabled")
 	WebElement signUpOpenCheckBox;
